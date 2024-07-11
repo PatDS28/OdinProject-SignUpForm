@@ -22,6 +22,7 @@
 }
 .divider-container:last-child{
   flex:6;
+  padding: 30px;
 }
 .logo-container{
   flex:1;
@@ -59,6 +60,15 @@
   font-family: Roboto;
   color: white;
 }
+.message-container{
+  height: 32vh;
+  padding-right: 45vh;
+}
+.message-container p {
+  font-family: Roboto;
+  font-size: 1.5vw;
+  max-width: 100%;
+}
 
 .form-main-container{
   display: flex;
@@ -74,4 +84,14 @@ label{
 }
 input{
   margin-bottom: 10px;
+  padding: 5px 10px;
+}
+button{
+  padding: 10px 30px;
+  font-family: roboto;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(89,109,72);
+  border-radius: 10px;
+  border: none;
 }
