@@ -1,10 +1,15 @@
+@font-face {
+  font-family: odinFont;
+  src: url('font/Norse-Bold.otf')  format('truetype');
+}
+
 .main-container{
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100vh;
 }
 .divider-container{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
 }
 
@@ -23,22 +28,50 @@
 }
 .logo-container:first-child{
   display: flex;
-  /* background-color: black; */
   justify-content: center;
   align-items: center;
+  
 }
-.logo-container:first-child p{
-  width: 100%;
+.logo-container:first-child div{
   background-color:rgba(0, 0, 0, 0.3);
-  color: white;
-  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.logo-container:first-child div p{
+  font-family: odinFont;
   font-size: 100px;
+  color: white;
+  margin: 0px;
 }
 .logo-container:first-child img{
   height: 12vh;
   /* display: block; */
   vertical-align: bottom;
+
 }
 .logo-container:last-child{
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-family: Roboto;
+  color: white;
+}
+
+.form-main-container{
+  display: flex;
+}
+.form-divider-container{
+  flex:0.4
+}
+label{
+  display: block;
+  font-family: Roboto;
+  font-size: small;
+  font-weight:500;
+}
+input{
+  margin-bottom: 10px;
 }

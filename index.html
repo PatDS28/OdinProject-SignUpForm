@@ -5,18 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up Forms</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="main-container">
     <div class="divider-container">
       <div class="logo-container">
-        <p>
-          <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="">
-          ODIN</p>
+          <div>
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="">
+            <p>ODIN</p>
+          </div>
       </div>
-      <div class="logo-container">ODIN</div>
+      <div class="logo-container">
+        <div>
+          <p>Photo by Halie West on Usplash</p>
+        </div>
+      </div>
     </div>
-    <div class="divider-container"></div>
+    <div class="divider-container">
+      <form action="">
+        <div class="form-main-container">
+          <div class="form-divider-container">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" name="first_name" id="fname">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password">
+          </div>
+          <div class="form-divider-container">
+            <label for="lname">LAST NAME</label>
+            <input type="text" name="last_name" id="lname">
+            <label for="contact">PHONE NUMBER</label>
+            <input type="text" name="number" id="contact">
+            <label for="cpassword">CONFIRM PASSWORD</label>
+            <input type="password" name="password" id="cpassword">
+          </div>
+        </div>
+      </form>
+
+    </div>
   </div>
 
   <script src="script.js"></script>
