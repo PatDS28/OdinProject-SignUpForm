@@ -34,26 +34,26 @@
           You know you want to
         </p>
       </div>
-      <form action="">
+      <form action="" method="post">
         <div class="form-main-container">
           <div class="form-divider-container">
             <label for="fname">FIRST NAME</label>
-            <input type="text" name="first_name" id="fname">
+            <input type="text" name="first_name" id="fname" required>
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
             <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" required>
           </div>
           <div class="form-divider-container">
             <label for="lname">LAST NAME</label>
-            <input type="text" name="last_name" id="lname">
+            <input type="text" name="last_name" id="lname" required>
             <label for="contact">PHONE NUMBER</label>
-            <input type="text" name="number" id="contact">
+            <input type="number" name="number" id="contact" required>
             <label for="cpassword">CONFIRM PASSWORD</label>
-            <input type="password" name="password" id="cpassword">
+            <input type="password" name="password" id="cpassword" required>
           </div>
         </div>
-        <button>Create Account</button>
+        <button type="submit">Create Account</button>
       </form>
 
     </div>
